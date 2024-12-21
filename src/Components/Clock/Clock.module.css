@@ -1,0 +1,84 @@
+/* .bg{
+  background:var(--color-light);
+} */
+
+.container {
+  flex: 1;
+  border-radius: 8px;
+  background: var(--color-lightest-0);
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.beatListContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.beatslist {
+  margin: 0 .5rem;
+  font-size: 2.3rem;
+  color: var(--color-dark);
+  padding: 0.6rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.accentBeat {
+  color: var(--color-dark);
+  font-weight:700;
+}
+
+.currentBeat {
+  background: var(--color-primary-1);
+  border-radius: 10px; /* Make the current beat circular */
+}
+.playingAnimation {
+  animation: pulse 0.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+#clockActionBtns {
+  position: absolute;
+  bottom: 0;
+}
+
+#clockBtns {
+  margin-right: 1rem;
+}
+#name,#clockActionBtns{
+  position:absolute;
+  left:1rem;
+}
+
+#name{
+  top:0;
+}
+
+#btnSection{
+  margin-top:.5rem;
+}
+
+.timer{
+  position:absolute;
+  top:0;
+  right:1rem;
+}

@@ -1,0 +1,124 @@
+{
+  "rhythms": [
+    {
+      "id": "0",
+      "name": "4x4",
+      "beats": "4",
+      "accents": [],
+      "description": "Soleá is one of the foundational forms in Flamenco. It has a solemn and serious tone and is often used as a base for other forms.",
+      "timeSignature": "12/8",
+      "difficulty": "Intermediate",
+      "commonUsage": "Soleá is used in both singing (cante) and dance (baile). It is a slow, reflective palo."
+    },
+    {
+      "id": "1",
+      "name": "Soleá",
+      "beats": "12",
+      "accents": ["3", "6", "9", "12"],
+      "description": "Soleá is one of the foundational forms in Flamenco. It has a solemn and serious tone and is often used as a base for other forms.",
+      "timeSignature": "12/8",
+      "difficulty": "Intermediate",
+      "commonUsage": "Soleá is used in both singing (cante) and dance (baile). It is a slow, reflective palo."
+    },
+    {
+      "id": "2",
+      "name": "Alegrías",
+      "beats": "12",
+      "accents": ["1", "5", "8", "10"],
+      "description": "Alegrías is a joyful and festive palo, often associated with a lively atmosphere. It’s frequently used in celebratory performances.",
+      "timeSignature": "12/8",
+      "difficulty": "Intermediate",
+      "commonUsage": "Alegrías is typically used in dance (baile) but also in singing (cante). It’s known for its upbeat rhythm."
+    },
+    {
+      "id": "3",
+      "name": "Bulerías",
+      "beats": "12",
+      "accents": ["12", "3", "6", "8", "10"],
+      "description": "Bulerías is fast and dynamic, often used for improvisation. It's one of the most popular palos in Flamenco.",
+      "timeSignature": "12/8",
+      "difficulty": "Advanced",
+      "commonUsage": "Bulerías is often used in both instrumental and dance performances, showcasing improvisational skills."
+    },
+    {
+      "id": "4",
+      "name": "Fandango",
+      "beats": "8",
+      "accents": ["1", "3", "5", "7"],
+      "description": "Fandango is one of the most accessible and widely used palos in Flamenco. It has a moderate rhythm and is less complex than other palos.",
+      "timeSignature": "4/4",
+      "difficulty": "Beginner",
+      "commonUsage": "Fandango is commonly used in both instrumental and vocal performances, often performed in social gatherings."
+    },
+    {
+      "id": "5",
+      "name": "Tangos",
+      "beats": "4",
+      "accents": ["1", "3"],
+      "description": "Tangos is a simple and danceable palo with a 4/4 time signature. It’s one of the most commonly performed palos in Flamenco.",
+      "timeSignature": "4/4",
+      "difficulty": "Beginner",
+      "commonUsage": "Tangos is used in both dance and song, and is a popular choice for beginners due to its simplicity."
+    },
+    {
+      "id": "6",
+      "name": "Siguiriyas",
+      "beats": "12",
+      "accents": ["1", "3", "5", "8", "10"],
+      "description": "Siguiriyas is one of the most dramatic and complex forms in Flamenco, known for its somber tone and intense emotion.",
+      "timeSignature": "12/8",
+      "difficulty": "Advanced",
+      "commonUsage": "Siguiriyas is primarily used for cante (singing), often performed in deeply emotional and reflective contexts."
+    },
+    {
+      "id": "7",
+      "name": "Rumba",
+      "beats": "4",
+      "accents": ["1", "3"],
+      "description": "Rumba is a lighter, rhythmic palo with Afro-Cuban roots. It's popular for its relaxed, playful style and is often used in more modern Flamenco.",
+      "timeSignature": "4/4",
+      "difficulty": "Beginner",
+      "commonUsage": "Rumba is commonly used for both dance and vocal performances and is very accessible to beginners."
+    },
+    {
+      "id": "8",
+      "name": "Taranta",
+      "beats": "4",
+      "accents": ["1", "3"],
+      "description": "Taranta is a palo in 4/4 time, often used for its emotional, expressive power. It is typically performed in a more serious, reflective manner.",
+      "timeSignature": "4/4",
+      "difficulty": "Intermediate",
+      "commonUsage": "Taranta is used primarily for cante (singing) and is often performed in solemn contexts."
+    },
+    {
+      "id": "9",
+      "name": "Malagueña",
+      "beats": "12",
+      "accents": ["1", "2", "4", "6", "8", "10"],
+      "description": "Malagueña is a palo in 12 beats, known for its flowing and lyrical rhythm. It's often associated with the coast of Andalusia.",
+      "timeSignature": "12/8",
+      "difficulty": "Intermediate",
+      "commonUsage": "Malagueña is widely used in both cante (singing) and baile (dance), especially for its melodic and expressive nature."
+    },
+    {
+      "id": "10",
+      "name": "Bambino",
+      "beats": "6",
+      "accents": ["1", "3", "5"],
+      "description": "Bambino is a fast-paced, lively palo with 6 beats, often used for playful, upbeat performances.",
+      "timeSignature": "6/8",
+      "difficulty": "Beginner",
+      "commonUsage": "Bambino is used in dance performances, especially for light-hearted and energetic routines."
+    },
+    {
+      "id": "11",
+      "name": "Granadinas",
+      "beats": "12",
+      "accents": ["1", "4", "8", "10"],
+      "description": "Granadinas is a palo with a smooth, lyrical feel and is often slower in tempo compared to other 12-beat palos.",
+      "timeSignature": "12/8",
+      "difficulty": "Intermediate",
+      "commonUsage": "Granadinas is used in singing (cante) and is often performed in more introspective or romantic Flamenco pieces."
+    }
+  ]
+}

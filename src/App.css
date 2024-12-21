@@ -1,0 +1,138 @@
+
+:root {
+  --color-lightest-0: #f0f5ff; /* Softer background */
+  --color-lightest: #dce8ff; 
+  --color-light: #90b2f4; 
+  --color-primary-1: #608ad4; 
+  --color-primary: #4160b5; 
+  --color-dark: #2e4172; 
+  --color-text: #ffffff; /* Contrast for text */
+
+  --card-background: #ffffff; /* Card white background */
+  --card-shadow: rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  --border-radius: 8px; /* Rounded corners */
+  --spacing: .8rem;
+}
+* {
+  box-sizing: border-box;
+  scrollbar-width: thin; 
+  scrollbar-color: var(--color-dark) var(--color-lightest);
+}
+
+html,
+body {
+  margin: 0; 
+  padding: 0;
+  height: 100%; 
+  box-sizing: border-box;
+}
+
+#heading{
+  text-align: center;
+  color: var(--color-dark); 
+  padding: 1rem; 
+  margin: 1rem 0; 
+  text-transform: capitalize; 
+  letter-spacing: 2px; 
+  background: var(--card-background);
+}
+
+#heading h2{
+  background: var(--color-lightest-0);
+  border-radius: var(--border-radius);
+  padding:1.3rem 0;
+  margin:0
+}
+
+
+ #root{
+  font-family: 'Roboto Condensed', sans-serif;
+  display:flex;
+  width:100%;
+  flex-direction:column;
+  height:100%;
+  background: var(--color-lightest-0);
+  letter-spacing: 1px;
+  color: var(--color-dark);
+  letter-spacing: 1px;
+  padding:1rem 2rem;
+}
+
+#main-container{
+ 
+  display:flex;
+  background:var(--color-lightest-0);
+  height:100vh;
+  min-height:0;
+}
+
+
+
+ul, li {
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+#left{
+  flex:3;
+  margin-right:var(--spacing);
+}
+
+#right{
+  flex:2;
+}
+
+
+#left, #right {
+  background: var(--card-background);
+  padding: var(--spacing);
+ 
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--color-primary)
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+
+::-webkit-scrollbar-track {
+  background: var(--color-lightest); /* Light background for the track */
+  border-radius: var(--border-radius); /* Rounded edges for track */
+}
+
+
+
+
+
+// utilities
+
+.pm{
+  padding:var(--spacing);
+  margin:var(--spacing);
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.box-shadow{ 
+  border-radius: var(--border-radius); 
+  box-shadow: 0px 4px 8px var(--card-shadow);
+}
