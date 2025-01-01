@@ -1,1 +1,1 @@
-A metronome app designed to perfect your rhythm playing.
+A metronome app designed to perfect your rhythm playing
