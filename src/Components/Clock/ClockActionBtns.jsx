@@ -5,12 +5,10 @@ import useTimer from '../Timer/Timer';
 
 export default function ClockActionBtns({}) {
   const {
-    state: { status },
+    state: { status, soundPlaying },
     setStatus,
     setSoundPlaying,
-    soundPlaying,
   } = useMetronome();
-
 
   return (
     <section id={styles.btnSection}>
@@ -25,11 +23,12 @@ export default function ClockActionBtns({}) {
       <button
         id={styles.clockBtns}
         onClick={() => {
-          status === statuses.PLAYING ? setStatus(statuses.PAUSED) : setStatus(statuses.PLAYING);
-          
+          status === statuses.PLAYING
+            ? setStatus(statuses.PAUSED)
+            : setStatus(statuses.PLAYING);
         }}
       >
-        {status ===  statuses.PLAYING  ? '⏸' : '▶'  }
+        {status === statuses.PLAYING ? '⏸' : '▶'}
       </button>
 
       <button

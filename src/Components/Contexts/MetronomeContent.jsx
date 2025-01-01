@@ -1,7 +1,6 @@
 import React, { createContext, useReducer, useContext } from 'react';
 import { statuses, types } from '../../helper.js';
 
-
 const {
   SET_SELECTED_ITEM,
   SET_CURRENT_BEAT,
@@ -21,7 +20,6 @@ const initialState = {
 const updateKeyByPayload = (key) => (state, payload) => ({
   ...state,
   [key]: payload,
-
 });
 
 const actionMap = {
@@ -33,10 +31,10 @@ const actionMap = {
   }),
 
   [SET_BPM]: updateKeyByPayload('bpm'),
-  [SET_STATUS]: (state,payload) => ({
+  [SET_STATUS]: (state, payload) => ({
     ...state,
-    status : payload,
-    ...(payload === statuses.STOPPED && { currentBeat: 1 }), 
+    status: payload,
+    ...(payload === statuses.STOPPED && { currentBeat: 1 }),
   }),
   [SET_SOUND_PLAYING]: (state, payload) => ({
     ...state,
@@ -55,7 +53,6 @@ function reducer(state, { type, payload }) {
 const MetronomeContext = createContext();
 
 export default function MetronomeProvider({ children }) {
-
   const [state, dispatch] = useReducer(reducer, initialState);
   const setSelectedItem = (payload) =>
     dispatch({ type: SET_SELECTED_ITEM, payload });

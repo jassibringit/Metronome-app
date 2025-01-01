@@ -1,46 +1,50 @@
-.rhythm{
-  background:var(--color-lightest-0);
-  padding:1rem;
-  border-radius:8px;
+.rhythm {
+  background: var(--color-lightest-0);
+  padding: 1rem;
+  border-radius: 8px;
   color: var(--color-dark);
   box-shadow: 0 2px 4px var(--card-shadow);
   transition: transform 0.3s ease;
-  min-height:0;
-  height:100%;
+  min-height: 0;
+  height: 100%;
 }
 
-#heading{
-  color: var(--color-dark)
+#heading {
+  color: var(--color-dark);
+  margin-top: 0;
 }
 
-.rhythmList{
-  font-size:1.5rem;
-  border-bottom:1px solid var(--color-dark);
-  padding: 1rem 1rem;
-  margin: .5rem 0;
-  cursor:pointer;
-  transition: all 0.3s ease;  /* Smooth transition on hover */
-  background-color: var(--color-light);  /* Transparent by default */
-  border-radius: 4px;  /* Slightly rounded corners for list items */
+.rhythmList {
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--color-dark);
+  padding: 0.9rem 0.9rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition on hover */
+  background-color: var(--color-light); /* Transparent by default */
+  border-radius: 4px; /* Slightly rounded corners for list items */
   /* color: var(--color-dark); */
 }
 
 .rhythmList:hover {
-  background-color: var(--color-primary);  /* Light background color on hover */
-  color: white;  /* White text when hovered */
+  background-color: var(--color-primary); /* Light background color on hover */
+  color: white; /* White text when hovered */
   /* transform: scale(1.02);  Slight scaling effect for interaction */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect on hover */
 }
 
-.rhythmList:hover, .rhythmList.selected {
-  transition: background-color 0.3s ease, color 0.3s ease;
+.rhythmList:hover,
+.rhythmList.selected {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
-.selected{
+.selected {
   border-left: 6px solid var(--color-dark);
   border-top-left-radius: 10px;
 }
 
-#listCont{
-  overflow:auto;
+#listCont {
+  overflow: auto;
 }
